@@ -10,7 +10,7 @@
 - [x] 📁 Folder structure scaffolded  
 - [x] 📝 README written
 - [x] 🐳 Docker compose with Postgres + Qdrant
-- [ ] ⚡ FastAPI skeleton running
+- [x] ⚡ FastAPI skeleton running
 - [ ] 💬 OpenWebUI connected to orchestrator
 
 ---
