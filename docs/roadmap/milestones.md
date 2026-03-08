@@ -19,8 +19,7 @@
 - [x] 📱 Mobile access via Tailscale + Conduit
 - [x] 💬 1000+ conversations imported into Obsidian + OpenWebUI
 - [x] 🔌 Claude connected to Obsidian via Docker MCP
-- [ ] 🔧 Debug ElevenLabs 401 error
-- [ ] 🔧 Fix remaining plugin/search/image gen bugs
+- [x] 🔧 Fix remaining plugin/search/image gen bugs
 - [ ] 📝 Version control system prompt in Git
 - [ ] 📖 Document full setup in repo (architecture, decisions, config)
 - [ ] 🌐 Write Phase 1 blog post / setup guide
