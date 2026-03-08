@@ -1,0 +1,26 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: vale_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: vale
+      POSTGRES_PASSWORD: valepassword
+      POSTGRES_DB: vale_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: vale_qdrant
+    restart: unless-stopped
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+volumes:
+  postgres_data:
+  qdrant_data:

@@ -9,7 +9,7 @@
 - [x] 🎉 Git + GitHub repo initialized
 - [x] 📁 Folder structure scaffolded  
 - [x] 📝 README written
-- [ ] 🐳 Docker compose with Postgres + Qdrant
+- [x] 🐳 Docker compose with Postgres + Qdrant
 - [ ] ⚡ FastAPI skeleton running
 - [ ] 💬 OpenWebUI connected to orchestrator
 
