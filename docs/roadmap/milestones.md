@@ -20,7 +20,7 @@
 - [x] 💬 1000+ conversations imported into Obsidian + OpenWebUI
 - [x] 🔌 Claude connected to Obsidian via Docker MCP
 - [x] 🔧 Fix remaining plugin/search/image gen bugs
-- [ ] 📝 Version control system prompt in Git
+- [x] 📝 Version control system prompt in Git
 - [ ] 📖 Document full setup in repo (architecture, decisions, config)
 - [ ] 🌐 Write Phase 1 blog post / setup guide
 
@@ -85,7 +85,7 @@
 - [ ] 📅 Dedicated 2–3 hrs/week study blocks scheduled
 - [ ] 🎯 Weak areas identified from last attempt
 - [ ] ✅ Network+ certification achieved
-
+- [ ] 🐍 MOOC Helsinki Python 2026 Course Complete
 ---
 
 > 📅 *Timelines are directional, not deadlines. Life happens. The phases are ordered — the dates flex.* 💜
