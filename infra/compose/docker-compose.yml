@@ -21,6 +21,29 @@ services:
     volumes:
       - qdrant_data:/qdrant/storage
 
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    restart: unless-stopped
+    ports:
+      - "3000:8080"
+    environment:
+      - WEBUI_SECRET_KEY=your-secret-key
+      - ENV=prod
+      - PORT=8080
+      - OLLAMA_BASE_URL=/ollama
+      - SCARF_NO_ANALYTICS=true
+      - DO_NOT_TRACK=true
+      - ANONYMIZED_TELEMETRY=false
+      - RAG_EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+      - VECTOR_DB=qdrant
+      - QDRANT_URI=http://vale_qdrant:6333
+    volumes:
+      - open-webui-data:/app/backend/data
+    depends_on:
+      - qdrant
+
 volumes:
   postgres_data:
   qdrant_data:
+  open-webui-data:
